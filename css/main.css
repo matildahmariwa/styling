@@ -7,8 +7,13 @@ body .intro .one p {
   padding-left: 135px;
 }
 
+body {
+  min-width: 600px;
+}
+
 body .blue-navbar {
   background-color: #259fe9;
+  margin-bottom: -8px;
 }
 
 body .blue-navbar img {
@@ -63,6 +68,13 @@ body .top-bar ul button {
 
 body .intro {
   background-size: 100% 100%;
+  background-image: url("../photos/render.jpg");
+  color: white;
+  height: auto;
+}
+
+body .intro .inputs {
+  padding-top: 33px;
 }
 
 body .intro .one p {
@@ -70,19 +82,37 @@ body .intro .one p {
 }
 
 body .intro .one button {
-  padding-top: 285px;
-  padding-left: 135px;
-  height: 20px;
-  width: 20px;
-  color: black;
+  margin-left: 135px;
   background-color: white;
+  color: black;
+  width: 183px;
+  height: 57px;
+  border-radius: 39px;
 }
 
 body .intro .two form {
-  margin-top: 60px;
-  color: white;
-  background-color: black;
+  margin-top: 182px;
+  color: #C7C8C8;
+  background-color: white;
   margin-right: 20px;
+}
+
+body .intro .two form .dream {
+  padding-left: 123px;
+}
+
+body .intro .two form p {
+  margin-bottom: 3px;
+  margin-top: 34px;
+}
+
+body .intro .two form button {
+  background-color: #f38c2a;
+  color: white;
+  height: 41px;
+  margin-bottom: 15px;
+  width: 192px;
+  letter-spacing: 4.5px;
 }
 
 body .intro .two form .find {
@@ -110,8 +140,8 @@ body .ruaka .one button {
 }
 
 body .ruaka .two {
-  background-image: url("../photos/sketch.jpg");
-  margin-top: 20px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 body .lorem {
@@ -121,26 +151,7 @@ body .lorem {
   padding-bottom: 31px;
   padding-left: 96px;
   margin-top: 30px;
-}
-
-body .lorem .we {
-  padding-left: 266px;
-}
-
-body .lorem .what {
-  padding-left: 300px;
-}
-
-body .lorem .making {
-  padding-left: 190px;
-}
-
-body .lorem .combined {
-  padding-left: 195px;
-}
-
-body .lorem .reasonable {
-  padding-left: 481px;
+  text-align: center;
 }
 
 body .lorem label {
@@ -148,9 +159,9 @@ body .lorem label {
 }
 
 body .lorem .price {
-  padding-top: 47px;
-  padding-left: 83px;
-  padding-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .lorem .price input {
@@ -174,28 +185,65 @@ body .lorem .icon {
 }
 
 body .content {
+  height: auto;
+  margin-top: 45px;
+  color: white;
+  text-align: center;
+}
+
+body .content .content-info {
   height: 300px;
+  padding-top: 74px;
 }
 
 body .content .amara {
   background-image: url("../photos/amara.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .content .amara:hover {
+  background: #951D39;
 }
 
 body .content .situ {
   background-image: url("../photos/situ.jpg");
 }
 
+body .content .situ:hover {
+  background: #951D39;
+}
+
 body .content .alma {
   background-image: url("../photos/alma.jpg");
+}
+
+body .content .alma:hover {
+  background: #951D39;
 }
 
 body .cards {
   padding-top: 60px;
 }
 
+body .cards .card {
+  border: none;
+}
+
+body .cards p {
+  font-size: 15px;
+}
+
+body .cards .jan {
+  font-size: 10px;
+}
+
 body .maximize {
-  background-image: url("../photos/alma.jpg");
-  height: 300px;
+  background-image: url("../photos/maximize.jpeg");
+  background-image: -webkit-gradient(linear, left top, right top, from(#5c5f5c), to(rgba(241, 168, 11, 0.52))), url("../photos/maximize.jpeg");
+  background-image: linear-gradient(to right, #5c5f5c, rgba(241, 168, 11, 0.52)), url("../photos/maximize.jpeg");
+  margin-top: 29px;
+  padding-left: 186px;
+  padding-top: 43px;
 }
 
 body .maximize button {
@@ -203,39 +251,50 @@ body .maximize button {
   width: 202px;
   height: 53px;
   border-radius: 21px;
+  margin-bottom: 37px;
 }
 
 body .maximize p {
   font-size: 40px;
   color: white;
+  padding-top: 18px;
+  padding-bottom: 7px;
+}
+
+body .subscribe {
+  background-color: #F0F1F2;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+body .subscribe .sub {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .subscribe button {
   color: white !important;
-  margin-left: 15px;
   width: 151px;
   height: 40px;
   font-weight: bold;
   background-color: #a4d464 !important;
 }
 
-body .subscribe h4 {
-  padding-left: 423px;
-}
-
-body .subscribe p {
-  padding-left: 166px;
-}
-
-body .subscribe .sub {
-  padding-left: 237px;
-}
-
 body .process {
   background-color: #a4d464 !important;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#238b68), color-stop(#238b68), color-stop(#238b68), color-stop(#98cd65), to(#98cd65));
+  background-image: linear-gradient(to right top, #238b68, #238b68, #238b68, #98cd65, #98cd65);
   padding-top: 30px;
   padding-bottom: 20px;
+  text-align: center;
   color: white;
+}
+
+body .process .simple {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 body .process i {
@@ -269,7 +328,7 @@ body .footer ul li {
 
 body .social {
   background-color: black;
-  padding-left: 450px;
+  text-align: center;
 }
 
 body .social i {
